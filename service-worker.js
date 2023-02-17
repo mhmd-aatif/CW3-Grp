@@ -1,5 +1,5 @@
 var cacheName = "activitystore-v1";
-var cacheFiles = [
+var Files = [
   "index.html",
   "stylesheets",
   "images",
@@ -12,7 +12,7 @@ self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(cacheName).then((cache) => {
       console.log("[Service Worker] Caching all the files");
-      return cache.addAll(cacheFiles);
+      return cache.addAll(Files);
     })
   );
 });

@@ -1,10 +1,10 @@
 var cacheName = "activitystore-v1";
 var Files = [
-  "index.html",
-  "stylesheets",
-  "images",
-  "js",
-  "webstore.webmanifest",
+  "./index.html",
+  "./stylesheets",
+  "./images",
+  "./js",
+  "./webstore.webmanifest",
 ];
 
 self.addEventListener("install", (e) => {

@@ -1,7 +1,7 @@
 var cacheName = "activitystore-v1";
 var cacheFiles = [
   "index.html",
-  "styles",
+  "stylesheets",
   "images",
   "js",
   "webstore.webmanifest",

@@ -21,7 +21,8 @@ body {
 /* Nav bar css */
 .nav {
   display: flex;
-  background-image: url("images/grif.png");
+  /* background-image: url("images/grif.png"); */
+  background-color: red;
   background-position: center center;
   background-size: cover;
   padding: 20px;

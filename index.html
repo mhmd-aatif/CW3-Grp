@@ -24,9 +24,17 @@
    />
    <link rel="manifest" href="webstore.webmanifest" />
    <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js');
-    }
+   if ('serviceWorker' in navigator) {
+  window.addEventListener('DOMContentLoaded', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(registration => {
+        console.log('Service worker registered successfully', registration.scope);
+      })
+      .catch(error => {
+        console.error('Failed to register service worker', error);
+      });
+  });
+}
   </script>
 </head>
 <body>

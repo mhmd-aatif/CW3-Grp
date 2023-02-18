@@ -1,8 +1,11 @@
+/*
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
-/* importing font and applying on all  */
+
 * {
   font-family: "Secular One", sans-serif;
 }
+
+*/
 /* positioning content in the product page */
 #content {
   position: relative;
@@ -21,8 +24,7 @@ body {
 /* Nav bar css */
 .nav {
   display: flex;
-  /* background-image: url("images/grif.png"); */
-  background-color: red;
+  background-image: url("images/grif.png");
   background-position: center center;
   background-size: cover;
   padding: 20px;

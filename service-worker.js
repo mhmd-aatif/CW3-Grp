@@ -1,4 +1,4 @@
-var cacheName = "activitystore-v1";
+var cacheName = "activitystore-v2";
 var files = [
   "index.html",
   "lessons.js",
